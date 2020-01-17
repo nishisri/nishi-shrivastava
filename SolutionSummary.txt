@@ -1,0 +1,17 @@
+The aim of this framework is to demonstrate the confidence that could be achieved by trying out different
+scenarios for
+different APIs but not to automate all the scenarios like invalid ones.
+
+Test Classes are created based on the functionality.
+We have used Rest Assured & JUnit to test the APIs.
+
+
+We have created an AppConfig file,where we have defined the baseURL.
+Since the host name may vary for environment to environment,
+this will be single point of
+change required (or could be set using system env. variable)
+
+Each class does it's own setup in the test itself.
+
+The TestData files are kept separately under resources.
+
